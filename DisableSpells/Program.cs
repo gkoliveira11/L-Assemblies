@@ -125,7 +125,7 @@ namespace DisableSpells
                 Config.SubMenu("Disable")
                     .AddItem(
                         new MenuItem(hero.ChampionName, "Disable on " + hero.ChampionName).SetValue(false));
-                Config.Item(hero.ChampionName).SetValue(false);
+                Config.Item(hero.ChampionName).SetValue(true);
             }
             Config.AddToMainMenu();
 
